@@ -17,8 +17,8 @@ const ArtistsSearch = ({ artist }) => {
     const [fetchedArtist, setFetchedArtist] = useState('')
     const [value, setValue] = useState('')
 
-    const client_id = 'd63fd65b0c994b55bd42ee96f46e6478'
-    const client_secret = '2239b81de8bd45e2b4aac09c3cfedca0'
+    const client_id = 'key must be provided. When test it ask me for my key.'
+    const client_secret = 'key must be provided. When test it ask me for my key.'
 
     const headers = {
         headers: {
